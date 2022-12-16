@@ -6,7 +6,7 @@ package com.sofka.controller;
  * @author Leyder Badillo Valdes
  * @since 1.0.0
  */
-
+import org.springframework.stereotype.Component;
 import com.sofka.domain.Contact;
 import com.sofka.exception.Exception;
 import com.sofka.service.ContactRepository;
@@ -28,6 +28,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
+@Component
 public class ContactController {
 
     @Autowired

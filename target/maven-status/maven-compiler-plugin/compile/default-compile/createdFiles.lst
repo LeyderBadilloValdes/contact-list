@@ -1,0 +1,5 @@
+com/sofka/domain/Contact.class
+com/sofka/controller/ContactController.class
+com/sofka/service/ContactRepository.class
+com/sofka/ContactApplication.class
+com/sofka/exception/Exception.class
